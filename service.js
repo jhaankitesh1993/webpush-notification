@@ -1,4 +1,5 @@
-const baseURL = 'http://165.22.208.66/api/';
+// const baseURL = 'http://165.22.208.66/api/';
+const baseURL = 'https://nikhil.psychx86.com/api/';
 // const baseURL = 'http://192.168.1.3:5000/api/';
 const application_id = new URL(location).searchParams.get('application_id');
 const public_key = new URL(location).searchParams.get('public_key');
